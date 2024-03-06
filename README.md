@@ -21,8 +21,5 @@ To use this project, follow these steps:
 
 ## Important Note
 
-Please note that this repository is protected by [Pratham Rastogi](https://prathamrastogi.github.io/Portfolio/), a tool that prevents unauthorized copying of code and content. Make sure to use the repository responsibly and adhere to all licensing agreements.
+Please note that this repository is protected by [Pratham Rastogi](https://prathamrastogi.github.io/Portfolio/). Make sure to use the repository responsibly and adhere to all licensing agreements.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
