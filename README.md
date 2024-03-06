@@ -1,4 +1,4 @@
-# URL Shortener
+# URL Shortner
 
 This project is a full-stack application built with EJS, Node.js, Express, and MongoDB. It allows users to shorten long URLs into more manageable and shareable links.
 
