@@ -21,7 +21,7 @@ To use this project, follow these steps:
 
 ## Demo
 
-You can Try this Repository with [Link]([https://prathamrastogi.github.io/Portfolio/](https://url-short-dsp8.onrender.com). Since I am using Free Hosting so do wait for Server to Intialise (Around 1 min).
+You can Try this Repository with [Link](https://url-short-dsp8.onrender.com). Since I am using Free Hosting so do wait for Server to Intialise (Around 1 min).
 
 ## Important Note
 
