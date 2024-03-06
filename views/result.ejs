@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shortner URL</title>
+    <link rel="stylesheet" href="public/assets/styles.css" type="text/css">
+</head>
+<body>
+    <%- include('Navbar.ejs') %>
+    <section class="result">
+        <div id="result_form-main">
+            <div id="result_form-div">
+              <form method="post" action="/result" class="form" id="form1">
+                
+                <p class="result_heading"> Short Url </p>
+                <p class="msg" >This Table Contain list of Full Link , thier Clicks & The Generated Code</p>
+                <p class="msg" >This Code can be Used with the URL With / </p>
+                <% shortUrls.forEach(url => { %>
+       
+                    <div class="Result_links">
+                        <div class="link-box">
+                           <div class="full">
+                              <a href="<%= url.url_name %>"><b><%= url.url_name %></b></a>
+                           </div>
+                           <div class="short">
+                              <a target="_blank" href="<%= url.short_url %>"><b><%= url.short_url %></b></a>
+                           </div>
+                           
+                           <div class="clicks">
+                              <span><b><%= url.clicks %></b></span>
+                           </div>          
+                        </div>
+                    </div>
+                    <% }) %>
+              </form>
+            </div>
+    </section>
+    <div style="height: 1000px"></div>
+    <%- include('footer.ejs') %>
+    
+</body>
+</html>

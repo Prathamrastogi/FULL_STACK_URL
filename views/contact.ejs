@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortner</title>
+    <link rel="stylesheet" href="public/assets/styles.css" type="text/css">
+</head>
+<body>
+    <%- include('Navbar.ejs') %>
+    
+<section class="try">
+    <section class="result">
+        <div id="result_form-main">
+            <div id="result_form-div">
+                <div class="section-header">
+                    <div class="container">
+                      <h2 class="try_heading">Contact Us</h2>
+                      <p></p>
+                    </div>
+                  </div>
+                  
+                  <div class="container">
+                    <div class="row">  
+                      <div class="contact-form">
+                        <form action="" id="contact-form">
+                          <h2>Send Message</h2>
+                          <div class="input-box">
+                            <input type="text" required="true" name="">
+                            <span>Full Name</span>
+                          </div>
+                          
+                          <div class="input-box">
+                            <input type="email" required="true" name="">
+                            <span>Email</span>
+                          </div>
+                          
+                          <div class="input-box">
+                            <textarea required="true" name=""></textarea>
+                            <span>Type your Message...</span>
+                          </div>
+                          
+                          <div class="input-box">
+                            <input type="submit" value="Send" name="">
+                          </div>
+                        </form>
+                      </div>
+                      
+                    </div>
+                  </div>
+            </div>
+    </section>
+</section>
+<div style="height: 600px"></div>
+    <%- include('footer.ejs') %>
+    
+</body>
+</html>

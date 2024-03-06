@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortner</title>
+    <link rel="stylesheet" href="public/assets/styles.css" type="text/css">
+</head>
+<body>
+    <%- include('Navbar.ejs') %>
+    <section class="try">
+        <div id="form-main">
+            <div id="form-div">
+              <form method="post" action="/result" class="form" id="form1">
+                
+                <p class="try_heading"> URL Shortner </p>
+                <p class="name">
+                  <input name="url_name" type="url" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="URL Here" id="name" required/>
+                </p>
+                <div class="submit">
+                  <input type="submit" value="SEND" id="button-blue"/>
+                  <div class="ease"></div>
+                </div>
+              </form>
+            </div>
+    </section>
+    <%- include('footer.ejs') %>
+</body>
+</html>
